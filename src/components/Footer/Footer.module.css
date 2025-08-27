@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ff4c4c; /* soft butter yellow */
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}

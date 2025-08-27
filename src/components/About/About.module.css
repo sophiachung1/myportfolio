@@ -2,7 +2,7 @@
 
 .container{
     position: relative;
-    background-color: rgba(12,12,12,0.6);
+    background-color: #FAE4E4;
     border-radius: 15px;
     padding: 73px;
     margin-top: 129px;
@@ -17,52 +17,32 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* Makes it responsive on smaller screens */
 }
 
-.aboutImage{ 
-    width: 35%;
+.text {
+  flex: 1;
+  min-width: 280px;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.aboutItems {
-    color: var(--color-text);
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.aboutItem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.profileImg{
+    width: 30%;
     border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(90deg, rgba(165,215,232, 0.42) 0%, 
-    rgba(255,255,255, 0)100%);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
 }
 
-.aboutItem:hover{
-    background-size: 100% 100%;
+h3{
+    margin-top: 20px;
 }
-
-.aboutItem h3{
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.aboutItem p{
-    font-size: 25px;
-}
-
 @media screen and (max-width: 830px) {
     .container {
         background-color: transparent;
