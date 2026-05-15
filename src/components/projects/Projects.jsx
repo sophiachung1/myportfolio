@@ -9,14 +9,19 @@ const projectItems = [
     link: "https://sophiachung1.github.io/peeptheratcafe/"       
     },
     {title: "Bookworm",
-    description: "Designed for students to reflect and grow their reading habit.",
-    image: getImageUrl(""),
+    description: "Mobile app designed to make reading feel fun, intentional, and rewarding ",
+    image: getImageUrl("Bookworm.png"),
     link: "https://www.notion.so/Bookworm-19157e020dfb80b2a1fedf56d020a78a?source=copy_link"       
     },
     {title: "MAYA",
-    description: "A companion app designed to support emotional wellness and connection.",
-    image: getImageUrl(""),
+    description: "A companion app designed to support emotional wellness and connection for elderly people.",
+    image: getImageUrl("maya.png"),
     link: "https://www.notion.so/MAYA-24857e020dfb8059a77ecfaba1773fcf?source=copy_link"       
+    },
+    {title: "Napkin",
+    description: "An app where rough ideas find the right people to build them.",
+    image: getImageUrl("napkin.png"),
+    link: "https://www.notion.so/Napkin-33a57e020dfb80029d99c06bb862e57e?source=copy_link"       
     },
 ] 
 

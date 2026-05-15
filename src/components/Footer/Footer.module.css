@@ -1,11 +1,35 @@
 .footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #ff4c4c; /* soft butter yellow */
+ display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 4rem;
+  background-color: #ff4c4c;
   font-size: 0.9rem;
   color: white;
   margin-top: 2rem;
+  gap: 8rem;
 }
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 50%;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+  margin-top: -1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
 
 .link {
   color: white;

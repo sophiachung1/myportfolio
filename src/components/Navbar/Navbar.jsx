@@ -29,7 +29,7 @@ export const Navbar = () => {
                     <a href="#play">Play</a>
                 </li>
                 <li><a href="#about">About</a></li>
-                <li><a href="https://drive.google.com/file/d/1bJvQaDp8LQBeHcUQaN2eSJ5TsLbGCkDx/view?usp=sharing">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1BZQU_A0MbkIWIjs-7mFHNaRr3XGBqiaM/view?usp=sharing">Resume</a></li>
             </ul>
         </div>
       </nav>
